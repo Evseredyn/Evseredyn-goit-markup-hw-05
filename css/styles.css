@@ -235,6 +235,7 @@ body {
 .hero-btn:focus {
     color: var(--akcent-color);
     background-color: var(--white-bg-color);
+    transition: var(--duration) var(--timing-function);
 }
 
 .features-flex {
@@ -421,6 +422,7 @@ body {
     background-color: var(--akcent-color);
     border-radius: 50%;
     color: var(--white-color);
+    transition: var(--duration) var(--timing-function);
 }
 
 .clients-title {
@@ -457,6 +459,7 @@ body {
 .clients-link:focus {
     color: var(--akcent-color);
     border: 1px solid var(--akcent-color);
+    transition: var(--duration) var(--timing-function);
 }
 .icon-clients {
     /* width: 106px;
@@ -537,6 +540,7 @@ body {
 .footer-socials-link:hover,
 .footer-socials-link:focus {
     background-color: var(--akcent-color);
+    transition: var(--duration) var(--timing-function);
 }
 
 .icon-footer-socials {
@@ -582,6 +586,7 @@ body {
     color: var(--white-color);
     background-color: var(--akcent-color);
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+    transition: var(--duration) var(--timing-function);
 }
 
 .projects-list {
@@ -596,7 +601,7 @@ body {
 
 .project-link:hover,
 .project-link:focus {
-
+    transition: var(--duration) var(--timing-function);
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
