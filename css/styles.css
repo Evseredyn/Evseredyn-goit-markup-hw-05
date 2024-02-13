@@ -613,17 +613,6 @@ body {
     position: relative;
     overflow: hidden;
 }
-/* 
-.project-discription::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    top: -50%;
-    left: 0;
-    transform: translateY(20%);
-    opacity: 0.3;
-    transition: transform var(--duration) var(--timing-function);
-} */
 
 .project-thumb::after {
     content: "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";    font-family: var(--main-font);
@@ -639,40 +628,15 @@ body {
     transition: transform var(--duration) var(--timing-function);
 }
 
-.project-thumb:hover::after {
+.project-link:hover .project-thumb::after,
+.project-link:focus .project-thumb::after {
     transform: translateY(-100%);
-    
 }
 
 .portfolio-img {
     display: block;
     margin-top: 0;
 }
-
-/* .thumb-block {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    padding: 63px 24px;
-    background-color: rgba(33, 150, 243, 0.9);
-    transition: transform var(--duration) var(--timing-function);
-} */
-
-/* .project-link:hover,
-.project-link:focus  {
-    transform: translateY(-100%);
-} */
-
-/* .thumb-text {
-    display: inline-block;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: var(--main-font);
-    color: var(--first-title-color);
-    font-size: 18px;
-    line-height: 1.55;
-    letter-spacing: 1.03px;
-} */
 
 .project-discription {
     padding: 20px 24px;
