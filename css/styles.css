@@ -178,7 +178,7 @@ body {
 .contacts-link:hover,
 .contacts-link:focus {
     color: var(--akcent-color);
-    transition: var(--duration) var(--timing-function);
+    transition: color var(--duration) var(--timing-function);
 }
 
 .contacts-item + .contacts-item {
@@ -235,7 +235,7 @@ body {
 .hero-btn:focus {
     color: var(--akcent-color);
     background-color: var(--white-bg-color);
-    transition: var(--duration) var(--timing-function);
+    transition: color background-color var(--duration) var(--timing-function);
 }
 
 .features-flex {
@@ -446,7 +446,7 @@ body {
     background-color: var(--akcent-color);
     border-radius: 50%;
     color: var(--white-color);
-    transition: var(--duration) var(--timing-function);
+    transition: background-color var(--duration) var(--timing-function);
 }
 
 .clients-title {
@@ -564,7 +564,7 @@ body {
 .footer-socials-link:hover,
 .footer-socials-link:focus {
     background-color: var(--akcent-color);
-    transition: var(--duration) var(--timing-function);
+    transition: background-color var(--duration) var(--timing-function);
 }
 
 .icon-footer-socials {
@@ -711,6 +711,7 @@ body {
     transform: translate(-50%,-50%);
     min-width: 530px;
     min-height: 580px;
+    padding: 40px;
     background-color: var(--white-bg-color);
     border: rgba(0, 0, 0,0.1);
     border-radius: 4px;
@@ -722,15 +723,20 @@ body {
     position: absolute;
     top: 14px;
     right: 14px;
-    display: block;
+    display: inline-flex;
     text-align: center;
-    width: 30px;
-    height: 30px;
-    padding-left: auto;
-    padding-right: auto;
+    /* width: 30px;
+    height: 30px; */
+    padding: 6px;
     margin: 0;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0,0.1);
+}
+
+.icon-modal-close {
+    width: 18px;
+    height: 18px;
+    
 }
 
 .modal>p {
